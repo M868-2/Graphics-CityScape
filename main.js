@@ -32,4 +32,4 @@ ctx.fillRect(170, 40, 110, 60);
 // Small Top
 ctx.fillRect(190, 20, 70, 20);
 
-// WINDOWS DRAWING LOOPS 
+// WINDOWS DRAWING LOOPS
