@@ -32,4 +32,23 @@ ctx.fillRect(170, 40, 110, 60);
 // Small Top
 ctx.fillRect(190, 20, 70, 20);
 
-// WINDOWS DRAWING LOOPS
+// DRAW WINDOW
+for (let xValue = 160; xValue <= 280; xValue += 20) {
+  ctx.fillStyle = "white";
+  ctx.fillRect(xValue, 120, 10, 500);
+}
+
+for (let yValue = 370; yValue <= 620; yValue += 20) {
+  ctx.fillStyle = "white";
+  ctx.fillRect(10, yValue, 135, 10);
+}
+
+// for (let xSqr = 30; xSqr <= 110; xSqr += 20) {
+//   ctx.fillStyle = "white";
+//   ctx.fillRect(xSqr, 205, 10, 10);
+//   xSqr += 20;
+//   if ((xSqr = 50)) {
+//     ctx.fillStyle = "white";
+//     ctx.fillRect(xSqr, 225, 10, 10);
+//   }
+// }
