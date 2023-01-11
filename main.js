@@ -43,12 +43,11 @@ for (let yValue = 370; yValue <= 620; yValue += 20) {
   ctx.fillRect(10, yValue, 135, 10);
 }
 
-// for (let xSqr = 30; xSqr <= 110; xSqr += 20) {
-//   ctx.fillStyle = "white";
-//   ctx.fillRect(xSqr, 205, 10, 10);
-//   xSqr += 20;
-//   if ((xSqr = 50)) {
-//     ctx.fillStyle = "white";
-//     ctx.fillRect(xSqr, 225, 10, 10);
-//   }
-// }
+for (let ySqr = 210; ySqr <= 340; ySqr += 20) {
+  ctx.fillStyle = "white";
+  ctx.fillRect(30, ySqr, 10, 10);
+  for (let xSqr = 30; xSqr <= 120; xSqr += 20) {
+    ctx.fillStyle = "white";
+    ctx.fillRect(xSqr, ySqr, 10, 10);
+  }
+}
